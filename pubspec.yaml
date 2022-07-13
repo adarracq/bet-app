@@ -1,0 +1,35 @@
+name: bet_app
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  bloc: ^8.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_localizations:
+    sdk: flutter
+  http: ^0.13.4
+  intl: ^0.17.0
+  provider: ^6.0.3
+  web3dart: ^2.3.5
+  web_socket_channel: ^2.2.0
+  
+
+dev_dependencies:
+  bloc_test: ^9.0.3
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+assets:
+    - assets/artifacts/MyAppName.json
